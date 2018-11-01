@@ -1,0 +1,66 @@
+body{
+   background-color:#c9c7c7;
+  overflow:hidden;
+}
+.card-two{
+  position:relative;
+  left:700px;
+  top:50px;
+  width:400px;
+  height:330px;
+  border-radius:30px;
+  overflow:hidden;
+  transform: skewY(-10deg);
+  
+ transition: top 0.5s linear;
+  
+  
+ }
+.card-two-bar{
+  position:absolute;
+  top:30px;
+ }
+span{
+  display:block;
+  width:400px;
+  height:30px;
+  background-color:#e0e0e0;
+  position:absolute;
+  top:0px;
+  opacity:0.6;
+}
+
+.card-one{
+position:relative;
+  left:400px;
+ top:-110px;
+  width:400px;
+  height:330px;
+  border-radius:30px;
+  overflow:hidden;
+  transform:skewY(8deg);
+  transition: top 0.5s linear;
+}
+.card-one-bar{
+   position:absolute;
+  top:30px;
+}
+
+
+.card-one > span{
+    display:block;
+  width:400px;
+  height:30px;
+  background-color:#e0e0e0;
+  position:absolute;
+  top:0px;
+  opacity:0.6;
+}
+ .card-two:hover {
+top:15px;
+}
+ 
+ .card-one:hover {
+top:-140px;
+   
+}
